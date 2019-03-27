@@ -1,0 +1,15 @@
+{
+  "synchronize": true,
+  "logging": false,
+  "entities": [
+    "src/services/customer/customerModel.ts"
+  ],
+  "migrations": [
+    "src/migration/**/*.ts"
+  ],
+
+  "cli": {
+    "entitiesDir": "src/services",
+    "migrationsDir": "src/migration"
+  }
+}
