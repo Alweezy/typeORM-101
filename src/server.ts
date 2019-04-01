@@ -2,7 +2,7 @@ import "reflect-metadata"
 
 import { app } from "./app"
 
-import {createConnection, getManager} from "typeorm";
+import { createConnection } from "typeorm";
 import {Customer} from "./services/customer/customerModel";
 
 process.on("uncaughtException", e => {

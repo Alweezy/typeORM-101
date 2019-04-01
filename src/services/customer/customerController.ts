@@ -1,5 +1,5 @@
 import {Customer} from "./customerModel";
-import { getManager, Like} from "typeorm";
+import { getManager } from "typeorm";
 import {Request, Response} from "express";
 
 
